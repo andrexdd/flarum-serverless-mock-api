@@ -1,0 +1,25 @@
+{
+    "name": "andresoftware/flarum-mock-api-playground",
+    "description": "Zero-DB Serverless Mock API & SSE Stream Playground for Flarum Communities",
+    "type": "flarum-extension",
+    "keywords": ["flarum", "mock api", "sse", "developerless", "playground"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andre Software"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.8 || ^2.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Mock API Playground",
+            "icon": {
+                "name": "fas fa-laptop-code",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            }
+        }
+    }
+}
